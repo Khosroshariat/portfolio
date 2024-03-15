@@ -1,0 +1,24 @@
+[
+  {
+    "service": "Website Design and Development",
+    "resps": [
+      "Designing and creating visually appealing and functional websites using HTML, CSS, JavaScript, and other relevant technologies.",
+      "Customizing websites according to client specifications, ensuring responsiveness across different devices, and optimizing for speed and performance.",
+      "Implementing modern frontend frameworks like React.js and Next.js to enhance user experience."
+    ]
+    
+  },
+  {
+    "service": "Website Maintenance and Support",
+    "resps": [
+      "Providing ongoing maintenance services, including updating content, fixing bugs, and applying security patches.",
+      "Offering technical support to clients, addressing inquiries, and resolving issues to ensure the smooth functioning of websites and web applications."
+    ]
+  },
+  {
+    "service": "Custom Web Solutions",
+    "resps": [
+      "Building tailored web applications and solutions to address specific business needs or requirements."
+    ]
+  }
+]

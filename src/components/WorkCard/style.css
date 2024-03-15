@@ -1,0 +1,248 @@
+.workCard {
+  grid-column: span 1;
+  margin-top: 50px;
+  position: relative;
+}
+
+.workCard--head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.workCard--head h3 {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+
+.work--icon {
+  width: 2px;
+}
+
+
+.workCard--line {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  opacity: 0.3;
+  margin: 10px;
+  transform-origin: center;
+}
+
+.workCard--body {
+  position: relative;
+  display: flex;
+  padding-top: 40px;
+}
+
+.workCard--body img {
+  /* width: 90%;
+  max-width: 620px;
+  height: 100px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-top: 20px; */
+  width: 90%;
+  max-width: 520px;
+  height: 300px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.workCard--body p {
+  position: absolute;
+  /* top: 30%; */
+  top: 40%;
+  left: 75%;
+  text-align: justify;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  font-family: var(--NML);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  mix-blend-mode: hard-light;
+  width: 100%;
+  max-width: 500px;
+  /* max-width: 400px; */
+  /* height: fit-content; */
+  height: fit-content;
+  max-height: 280px;
+  overflow-y: scroll;
+  /* max-width: 50ch; */
+  /* background-color: rgb(32, 29, 29); */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.workCard--body h1 {
+  position: absolute;
+  top: 90%;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  mix-blend-mode: difference;
+}
+
+@media (max-width: 1550px) {
+  .workCard--body p {
+    max-width: 650px;
+    left: 75%;
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .workCard--body h1 {
+    font-size: 20px;
+  }
+  
+  .workCard--body img {
+    width: 90%;
+  max-width: 620px;
+  height: 420px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-top: 20px;
+  }
+
+  .workCard--body {
+    padding-top: 0;
+  }
+
+  .workCard--body p {
+    max-width: 700px;
+    left: 70%;
+    width: 60%;
+    height: fit-content;
+    max-height: none;
+    overflow-y: hidden;
+  }
+}
+
+@media (max-width: 1200px) {
+  .workCard--body p {
+    font-size: 16px;
+    top: 30%;
+    left: 70%;
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 1150px) {
+  .workCard--body p {
+    font-size: 16px;
+    top: 40%;
+    left: 75%;
+    width: 50%;
+    max-width: 600px;
+  }
+
+}
+
+@media (max-width: 950px){
+
+  .workCard--body h1 {
+    top: 90%;
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 890px) {
+  .workCard--body p {
+    font-size: 16px;
+    top: 40%;
+    left: 78%;
+    width: 45%;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+}
+
+@media (max-width: 850px){
+
+  .workCard--body h1 {
+    top: 90%;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .workCard--body img {
+    width: 85%;
+    max-width: 600px;
+  }
+
+}
+
+@media (max-width: 760px){
+
+  .workCard--body h1 {
+    top: 90%;
+    font-size: 14px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+  .workCard--body img {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .workCard--body h1 {
+    top: 90%;
+    font-size: 12px;
+  }
+
+  .workCard--body p {
+    font-size: 14px;
+    /* max-width: 300px; */
+    top: 40%;
+    left: 65%;
+    width: 60%;
+    height: 150px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 630px) {
+
+  .workCard--body p {
+    font-size: 14px;
+    width: 65%;
+  }
+
+}
+
+@media (max-width: 590px) {
+
+  .workCard--body h1 {
+    top: 60%;
+    font-size: 12px;
+    max-width: 130px;
+    line-height: 1.5;
+  }
+
+  .workCard--body p {
+    font-size: 14px;
+    width: 60%;
+    top: 60%;
+    left: 74%;
+    height: 220px;
+  }
+
+}

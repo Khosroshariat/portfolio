@@ -1,0 +1,32 @@
+.resumeCard--body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.resume--line {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  opacity: 0.3;
+  margin: 24px 0;
+  transform-origin: left;
+}
+
+
+
+.resumeCard--body--center {
+  flex-basis: 50%;
+}
+
+
+.resumeCard--body--center ul li {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+
+  .resumeCard--body--center ul {
+    padding-left: 20px;
+  }
+}
