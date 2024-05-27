@@ -165,7 +165,8 @@
     left: 78%;
     width: 45%;
     height: 300px;
-    overflow-y: scroll;
+    /* max-height: 200px; */
+    overflow-y: auto;
   }
 
 }
@@ -215,7 +216,7 @@
     left: 65%;
     width: 60%;
     height: 150px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
 }
 
